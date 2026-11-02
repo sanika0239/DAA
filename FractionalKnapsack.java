@@ -218,3 +218,52 @@ public class FractionalKnapsack {
  * Space Complexity = O(n)
  * ========================================================
  */
+
+
+
+
+
+/*
+==========================================
+SAMPLE INPUT
+==========================================
+
+Enter number of items: 3
+
+Enter details for Item 1
+Enter profit: 60
+Enter weight: 10
+
+Enter details for Item 2
+Enter profit: 100
+Enter weight: 20
+
+Enter details for Item 3
+Enter profit: 120
+Enter weight: 30
+
+Enter capacity of knapsack: 50
+
+==========================================
+EXPECTED OUTPUT
+==========================================
+
+Items sorted according to Profit/Weight ratio:
+
+Item    Profit    Weight    Ratio
+1       60        10        6.00
+2       100       20        5.00
+3       120       30        4.00
+
+Items selected:
+
+Item 1 -> 100% selected, Profit = 60
+Item 2 -> 100% selected, Profit = 100
+Item 3 -> 66.67% selected, Profit = 80.00
+
+Knapsack Capacity : 50
+Remaining Capacity: 0
+Maximum Profit     : 240.00
+
+==========================================
+*/
