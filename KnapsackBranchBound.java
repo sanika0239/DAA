@@ -257,3 +257,29 @@ public class KnapsackBranchBound {
  * Space Complexity = O(2^n)
  * ========================================================
  */
+
+
+
+/*
+========================================================
+SAMPLE INPUT
+========================================================
+
+Enter number of items: 4
+
+Enter weight and profit of item 1: 2 40
+Enter weight and profit of item 2: 3 50
+Enter weight and profit of item 3: 4 60
+Enter weight and profit of item 4: 5 70
+
+Enter knapsack capacity: 8
+
+
+========================================================
+EXPECTED OUTPUT
+========================================================
+
+Maximum Profit = 130
+
+========================================================
+*/
